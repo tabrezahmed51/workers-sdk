@@ -141,7 +141,7 @@
 		"rimraf": "catalog:default",
 		"selfsigned": "^2.0.1",
 		"semiver": "^1.1.0",
-		"shell-quote": "^1.8.4",
+		"shell-quote": "^1.11.0",
 		"signal-exit": "^3.0.7",
 		"source-map": "^0.6.1",
 		"strip-ansi": "^7.1.0",
