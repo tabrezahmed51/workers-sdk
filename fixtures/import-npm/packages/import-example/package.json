@@ -15,7 +15,7 @@
 	},
 	"devDependencies": {
 		"@cloudflare/workers-tsconfig": "../../../../packages/workers-tsconfig",
-		"undici": "^7.28.0",
+		"undici": "^6.29.1",
 		"wrangler": "../../../../packages/wrangler"
 	}
 }

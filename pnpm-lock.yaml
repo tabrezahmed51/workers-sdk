@@ -37,17 +37,17 @@ catalogs:
       specifier: ^5.8.3
       version: 5.8.3
     undici:
-      specifier: ^6.27.0
-      version: 6.27.0
+      specifier: ^6.29.1
+      version: 6.29.1
     vite:
-      specifier: ^6.4.5
-      version: 6.4.6
+      specifier: ^7.3.7
+      version: 7.3.8
     vitest:
-      specifier: ~4.1.11
-      version: 4.1.12
+      specifier: ~5.1.2
+      version: 5.1.2
     ws:
-      specifier: 8.21.0
-      version: 8.21.0
+      specifier: 8.21.1
+      version: 8.21.1
   vite-plugin:
     vite:
       specifier: 7.0.0
@@ -147,10 +147,10 @@ importers:
         version: 5.8.3
       vite:
         specifier: catalog:default
-        version: 6.4.6(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2)(tsx@3.12.10)
+        version: 7.3.8(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2)(tsx@3.12.10)
       vitest:
         specifier: catalog:default
-        version: 4.1.12(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@6.4.6(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
+        version: 5.1.2(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@7.3.8(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
 
   fixtures/additional-modules:
     devDependencies:
@@ -165,10 +165,10 @@ importers:
         version: 5.8.3
       undici:
         specifier: catalog:default
-        version: 6.27.0
+        version: 6.29.1
       vitest:
         specifier: catalog:default
-        version: 4.1.12(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@6.4.6(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
+        version: 5.1.2(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@7.3.8(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
       wrangler:
         specifier: workspace:*
         version: link:../../packages/wrangler
@@ -183,10 +183,10 @@ importers:
         version: 5.8.3
       undici:
         specifier: catalog:default
-        version: 6.27.0
+        version: 6.29.1
       vitest:
         specifier: catalog:default
-        version: 4.1.12(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@6.4.6(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
+        version: 5.1.2(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@7.3.8(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
       wrangler:
         specifier: workspace:*
         version: link:../../packages/wrangler
@@ -210,7 +210,7 @@ importers:
         version: 5.8.3
       vitest:
         specifier: catalog:default
-        version: 4.1.12(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@6.4.6(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
+        version: 5.1.2(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@7.3.8(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
       wrangler:
         specifier: workspace:*
         version: link:../../packages/wrangler
@@ -246,10 +246,10 @@ importers:
         version: 5.8.3
       undici:
         specifier: catalog:default
-        version: 6.27.0
+        version: 6.29.1
       vitest:
         specifier: catalog:default
-        version: 4.1.12(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@6.4.6(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
+        version: 5.1.2(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@7.3.8(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
       wrangler:
         specifier: workspace:*
         version: link:../../packages/wrangler
@@ -267,10 +267,10 @@ importers:
         version: 5.8.3
       undici:
         specifier: catalog:default
-        version: 6.27.0
+        version: 6.29.1
       vitest:
         specifier: catalog:default
-        version: 4.1.12(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@6.4.6(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
+        version: 5.1.2(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@7.3.8(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
       wrangler:
         specifier: workspace:*
         version: link:../../packages/wrangler
@@ -294,7 +294,7 @@ importers:
         version: 7.0.0(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2)
       vitest:
         specifier: catalog:default
-        version: 4.1.12(@types/node@20.19.9)(vite@7.0.0(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
+        version: 5.1.2(@types/node@20.19.9)(vite@7.0.0(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
       wrangler:
         specifier: workspace:*
         version: link:../../packages/wrangler
@@ -306,10 +306,10 @@ importers:
         version: link:../../packages/workers-tsconfig
       undici:
         specifier: catalog:default
-        version: 6.27.0
+        version: 6.29.1
       vitest:
         specifier: catalog:default
-        version: 4.1.12(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@6.4.6(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
+        version: 5.1.2(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@7.3.8(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
       wrangler:
         specifier: workspace:*
         version: link:../../packages/wrangler
@@ -324,10 +324,10 @@ importers:
         version: 4.20250902.0
       undici:
         specifier: catalog:default
-        version: 6.27.0
+        version: 6.29.1
       vitest:
         specifier: catalog:default
-        version: 4.1.12(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@6.4.6(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
+        version: 5.1.2(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@7.3.8(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
       wrangler:
         specifier: workspace:*
         version: link:../../packages/wrangler
@@ -360,10 +360,10 @@ importers:
         version: 2.2.0
       undici:
         specifier: catalog:default
-        version: 6.27.0
+        version: 6.29.1
       vitest:
         specifier: catalog:default
-        version: 4.1.12(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@6.4.6(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
+        version: 5.1.2(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@7.3.8(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
       wrangler:
         specifier: workspace:*
         version: link:../../packages/wrangler
@@ -387,10 +387,10 @@ importers:
         version: 5.8.3
       undici:
         specifier: catalog:default
-        version: 6.27.0
+        version: 6.29.1
       vitest:
         specifier: catalog:default
-        version: 4.1.12(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@6.4.6(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
+        version: 5.1.2(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@7.3.8(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
       wrangler:
         specifier: workspace:*
         version: link:../../packages/wrangler
@@ -411,7 +411,7 @@ importers:
         version: 5.8.3
       vitest:
         specifier: catalog:default
-        version: 4.1.12(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@6.4.6(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
+        version: 5.1.2(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@7.3.8(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
       wrangler:
         specifier: workspace:*
         version: link:../../packages/wrangler
@@ -432,10 +432,10 @@ importers:
         version: 5.8.3
       undici:
         specifier: catalog:default
-        version: 6.27.0
+        version: 6.29.1
       vitest:
         specifier: catalog:default
-        version: 4.1.12(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@6.4.6(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
+        version: 5.1.2(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@7.3.8(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
       wrangler:
         specifier: workspace:*
         version: link:../../packages/wrangler
@@ -456,10 +456,10 @@ importers:
         version: 7.1.0
       undici:
         specifier: catalog:default
-        version: 6.27.0
+        version: 6.29.1
       vitest:
         specifier: catalog:default
-        version: 4.1.12(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@6.4.6(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
+        version: 5.1.2(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@7.3.8(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
 
   fixtures/isomorphic-random-example: {}
 
@@ -484,7 +484,7 @@ importers:
         version: 5.8.3
       vitest:
         specifier: catalog:default
-        version: 4.1.12(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@6.4.6(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
+        version: 5.1.2(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@7.3.8(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
       wrangler:
         specifier: workspace:*
         version: link:../../packages/wrangler
@@ -517,7 +517,7 @@ importers:
         version: 7.0.0
       vitest:
         specifier: catalog:default
-        version: 4.1.12(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@6.4.6(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
+        version: 5.1.2(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@7.3.8(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
       wrangler:
         specifier: workspace:*
         version: link:../../packages/wrangler
@@ -539,10 +539,10 @@ importers:
         version: 5.8.3
       undici:
         specifier: catalog:default
-        version: 6.27.0
+        version: 6.29.1
       vitest:
         specifier: catalog:default
-        version: 4.1.12(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@6.4.6(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
+        version: 5.1.2(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@7.3.8(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
       wrangler:
         specifier: workspace:*
         version: link:../../packages/wrangler
@@ -557,10 +557,10 @@ importers:
         version: 4.20250902.0
       undici:
         specifier: catalog:default
-        version: 6.27.0
+        version: 6.29.1
       vitest:
         specifier: catalog:default
-        version: 4.1.12(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@6.4.6(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
+        version: 5.1.2(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@7.3.8(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
       wrangler:
         specifier: workspace:*
         version: link:../../packages/wrangler
@@ -590,10 +590,10 @@ importers:
         version: 1.1.1
       undici:
         specifier: catalog:default
-        version: 6.27.0
+        version: 6.29.1
       vitest:
         specifier: catalog:default
-        version: 4.1.12(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@6.4.6(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
+        version: 5.1.2(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@7.3.8(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
       wrangler:
         specifier: workspace:*
         version: link:../../packages/wrangler
@@ -611,10 +611,10 @@ importers:
         version: 5.8.3
       undici:
         specifier: catalog:default
-        version: 6.27.0
+        version: 6.29.1
       vitest:
         specifier: catalog:default
-        version: 4.1.12(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@6.4.6(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
+        version: 5.1.2(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@7.3.8(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
       wrangler:
         specifier: workspace:*
         version: link:../../packages/wrangler
@@ -632,10 +632,10 @@ importers:
         version: 5.8.3
       undici:
         specifier: catalog:default
-        version: 6.27.0
+        version: 6.29.1
       vitest:
         specifier: catalog:default
-        version: 4.1.12(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@6.4.6(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
+        version: 5.1.2(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@7.3.8(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
       wrangler:
         specifier: workspace:*
         version: link:../../packages/wrangler
@@ -660,10 +660,10 @@ importers:
         version: 5.8.3
       undici:
         specifier: catalog:default
-        version: 6.27.0
+        version: 6.29.1
       vitest:
         specifier: catalog:default
-        version: 4.1.12(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@6.4.6(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
+        version: 5.1.2(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@7.3.8(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
       wrangler:
         specifier: workspace:*
         version: link:../../packages/wrangler
@@ -681,10 +681,10 @@ importers:
         version: 5.8.3
       undici:
         specifier: catalog:default
-        version: 6.27.0
+        version: 6.29.1
       vitest:
         specifier: catalog:default
-        version: 4.1.12(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@6.4.6(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
+        version: 5.1.2(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@7.3.8(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
       wrangler:
         specifier: workspace:*
         version: link:../../packages/wrangler
@@ -699,10 +699,10 @@ importers:
         version: 5.8.3
       undici:
         specifier: catalog:default
-        version: 6.27.0
+        version: 6.29.1
       vitest:
         specifier: catalog:default
-        version: 4.1.12(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@6.4.6(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
+        version: 5.1.2(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@7.3.8(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
       wrangler:
         specifier: workspace:*
         version: link:../../packages/wrangler
@@ -720,10 +720,10 @@ importers:
         version: 5.8.3
       undici:
         specifier: catalog:default
-        version: 6.27.0
+        version: 6.29.1
       vitest:
         specifier: catalog:default
-        version: 4.1.12(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@6.4.6(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
+        version: 5.1.2(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@7.3.8(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
       wrangler:
         specifier: workspace:*
         version: link:../../packages/wrangler
@@ -741,10 +741,10 @@ importers:
         version: 5.8.3
       undici:
         specifier: catalog:default
-        version: 6.27.0
+        version: 6.29.1
       vitest:
         specifier: catalog:default
-        version: 4.1.12(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@6.4.6(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
+        version: 5.1.2(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@7.3.8(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
       wrangler:
         specifier: workspace:*
         version: link:../../packages/wrangler
@@ -762,10 +762,10 @@ importers:
         version: 5.8.3
       undici:
         specifier: catalog:default
-        version: 6.27.0
+        version: 6.29.1
       vitest:
         specifier: catalog:default
-        version: 4.1.12(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@6.4.6(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
+        version: 5.1.2(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@7.3.8(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
       wrangler:
         specifier: workspace:*
         version: link:../../packages/wrangler
@@ -802,10 +802,10 @@ importers:
         version: 5.8.3
       undici:
         specifier: catalog:default
-        version: 6.27.0
+        version: 6.29.1
       vitest:
         specifier: catalog:default
-        version: 4.1.12(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@6.4.6(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
+        version: 5.1.2(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@7.3.8(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
       wrangler:
         specifier: workspace:*
         version: link:../../packages/wrangler
@@ -823,10 +823,10 @@ importers:
         version: 5.8.3
       undici:
         specifier: catalog:default
-        version: 6.27.0
+        version: 6.29.1
       vitest:
         specifier: catalog:default
-        version: 4.1.12(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@6.4.6(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
+        version: 5.1.2(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@7.3.8(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
       wrangler:
         specifier: workspace:*
         version: link:../../packages/wrangler
@@ -838,10 +838,10 @@ importers:
         version: link:../../packages/workers-tsconfig
       undici:
         specifier: catalog:default
-        version: 6.27.0
+        version: 6.29.1
       vitest:
         specifier: catalog:default
-        version: 4.1.12(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@6.4.6(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
+        version: 5.1.2(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@7.3.8(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
       wrangler:
         specifier: workspace:*
         version: link:../../packages/wrangler
@@ -859,10 +859,10 @@ importers:
         version: 5.8.3
       undici:
         specifier: catalog:default
-        version: 6.27.0
+        version: 6.29.1
       vitest:
         specifier: catalog:default
-        version: 4.1.12(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@6.4.6(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
+        version: 5.1.2(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@7.3.8(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
       wrangler:
         specifier: workspace:*
         version: link:../../packages/wrangler
@@ -880,10 +880,10 @@ importers:
         version: 5.8.3
       undici:
         specifier: catalog:default
-        version: 6.27.0
+        version: 6.29.1
       vitest:
         specifier: catalog:default
-        version: 4.1.12(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@6.4.6(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
+        version: 5.1.2(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@7.3.8(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
       wrangler:
         specifier: workspace:*
         version: link:../../packages/wrangler
@@ -898,10 +898,10 @@ importers:
         version: 5.8.3
       undici:
         specifier: catalog:default
-        version: 6.27.0
+        version: 6.29.1
       vitest:
         specifier: catalog:default
-        version: 4.1.12(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@6.4.6(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
+        version: 5.1.2(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@7.3.8(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
       wrangler:
         specifier: workspace:*
         version: link:../../packages/wrangler
@@ -916,10 +916,10 @@ importers:
         version: 5.8.3
       undici:
         specifier: catalog:default
-        version: 6.27.0
+        version: 6.29.1
       vitest:
         specifier: catalog:default
-        version: 4.1.12(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@6.4.6(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
+        version: 5.1.2(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@7.3.8(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
       wrangler:
         specifier: workspace:*
         version: link:../../packages/wrangler
@@ -934,10 +934,10 @@ importers:
         version: 5.8.3
       undici:
         specifier: catalog:default
-        version: 6.27.0
+        version: 6.29.1
       vitest:
         specifier: catalog:default
-        version: 4.1.12(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@6.4.6(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
+        version: 5.1.2(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@7.3.8(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
       wrangler:
         specifier: workspace:*
         version: link:../../packages/wrangler
@@ -952,10 +952,10 @@ importers:
         version: 5.8.3
       undici:
         specifier: catalog:default
-        version: 6.27.0
+        version: 6.29.1
       vitest:
         specifier: catalog:default
-        version: 4.1.12(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@6.4.6(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
+        version: 5.1.2(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@7.3.8(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
       wrangler:
         specifier: workspace:*
         version: link:../../packages/wrangler
@@ -970,10 +970,10 @@ importers:
         version: 5.8.3
       undici:
         specifier: catalog:default
-        version: 6.27.0
+        version: 6.29.1
       vitest:
         specifier: catalog:default
-        version: 4.1.12(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@6.4.6(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
+        version: 5.1.2(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@7.3.8(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
       wrangler:
         specifier: workspace:*
         version: link:../../packages/wrangler
@@ -991,12 +991,12 @@ importers:
         version: 5.8.3
       vitest:
         specifier: catalog:default
-        version: 4.1.12(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@6.4.6(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
+        version: 5.1.2(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@7.3.8(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
       wrangler:
         specifier: workspace:*
         version: link:../../packages/wrangler
       ws:
-        specifier: ^8.21.0
+        specifier: ^8.21.1
         version: 8.23.1
 
   fixtures/ratelimit-app:
@@ -1009,10 +1009,10 @@ importers:
         version: 5.8.3
       undici:
         specifier: catalog:default
-        version: 6.27.0
+        version: 6.29.1
       vitest:
         specifier: catalog:default
-        version: 4.1.12(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@6.4.6(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
+        version: 5.1.2(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@7.3.8(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
       wrangler:
         specifier: workspace:*
         version: link:../../packages/wrangler
@@ -1024,10 +1024,10 @@ importers:
         version: link:../../packages/workers-tsconfig
       undici:
         specifier: catalog:default
-        version: 6.27.0
+        version: 6.29.1
       vitest:
         specifier: catalog:default
-        version: 4.1.12(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@6.4.6(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
+        version: 5.1.2(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@7.3.8(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
       wrangler:
         specifier: workspace:*
         version: link:../../packages/wrangler
@@ -1039,10 +1039,10 @@ importers:
         version: link:../../packages/workers-tsconfig
       undici:
         specifier: catalog:default
-        version: 6.27.0
+        version: 6.29.1
       vitest:
         specifier: catalog:default
-        version: 4.1.12(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@6.4.6(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
+        version: 5.1.2(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@7.3.8(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
       wrangler:
         specifier: workspace:*
         version: link:../../packages/wrangler
@@ -1150,10 +1150,10 @@ importers:
         version: 5.8.3
       vite:
         specifier: catalog:default
-        version: 6.4.6(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2)(tsx@3.12.10)
+        version: 7.3.8(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2)(tsx@3.12.10)
       vitest:
         specifier: catalog:default
-        version: 4.1.12(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@6.4.6(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
+        version: 5.1.2(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@7.3.8(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
       wrangler:
         specifier: workspace:*
         version: link:../../packages/wrangler
@@ -1167,8 +1167,8 @@ importers:
         specifier: ^5.5.2
         version: 5.8.2
       vitest:
-        specifier: ~4.1.11
-        version: 4.1.12(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@6.4.6(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
+        specifier: ~5.1.2
+        version: 5.1.2(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@7.3.8(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
       wrangler:
         specifier: workspace:*
         version: link:../../packages/wrangler
@@ -1185,7 +1185,7 @@ importers:
         version: 4.20250902.0
       undici:
         specifier: catalog:default
-        version: 6.27.0
+        version: 6.29.1
       wrangler:
         specifier: workspace:*
         version: link:../../packages/wrangler
@@ -1207,10 +1207,10 @@ importers:
         version: 5.8.3
       undici:
         specifier: catalog:default
-        version: 6.27.0
+        version: 6.29.1
       vitest:
         specifier: catalog:default
-        version: 4.1.12(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@6.4.6(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
+        version: 5.1.2(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@7.3.8(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
       wrangler:
         specifier: workspace:*
         version: link:../../packages/wrangler
@@ -1225,7 +1225,7 @@ importers:
         version: 5.8.3
       vitest:
         specifier: catalog:default
-        version: 4.1.12(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@6.4.6(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
+        version: 5.1.2(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@7.3.8(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
       wrangler:
         specifier: workspace:*
         version: link:../../packages/wrangler
@@ -1261,10 +1261,10 @@ importers:
         version: 5.8.3
       undici:
         specifier: catalog:default
-        version: 6.27.0
+        version: 6.29.1
       vitest:
         specifier: catalog:default
-        version: 4.1.12(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@6.4.6(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
+        version: 5.1.2(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@7.3.8(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
       wrangler:
         specifier: workspace:*
         version: link:../../packages/wrangler
@@ -1282,10 +1282,10 @@ importers:
         version: 5.8.3
       undici:
         specifier: catalog:default
-        version: 6.27.0
+        version: 6.29.1
       vitest:
         specifier: catalog:default
-        version: 4.1.12(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@6.4.6(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
+        version: 5.1.2(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@7.3.8(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
       wrangler:
         specifier: workspace:*
         version: link:../../packages/wrangler
@@ -1303,10 +1303,10 @@ importers:
         version: 5.8.3
       undici:
         specifier: catalog:default
-        version: 6.27.0
+        version: 6.29.1
       vitest:
         specifier: catalog:default
-        version: 4.1.12(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@6.4.6(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
+        version: 5.1.2(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@7.3.8(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
       wrangler:
         specifier: workspace:*
         version: link:../../packages/wrangler
@@ -1324,10 +1324,10 @@ importers:
         version: 5.8.3
       undici:
         specifier: catalog:default
-        version: 6.27.0
+        version: 6.29.1
       vitest:
         specifier: catalog:default
-        version: 4.1.12(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@6.4.6(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
+        version: 5.1.2(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@7.3.8(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
       wrangler:
         specifier: workspace:*
         version: link:../../packages/wrangler
@@ -1345,10 +1345,10 @@ importers:
         version: 5.8.3
       undici:
         specifier: catalog:default
-        version: 6.27.0
+        version: 6.29.1
       vitest:
         specifier: catalog:default
-        version: 4.1.12(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@6.4.6(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
+        version: 5.1.2(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@7.3.8(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
       wrangler:
         specifier: workspace:*
         version: link:../../packages/wrangler
@@ -1378,10 +1378,10 @@ importers:
         version: 5.8.3
       undici:
         specifier: catalog:default
-        version: 6.27.0
+        version: 6.29.1
       vitest:
         specifier: catalog:default
-        version: 4.1.12(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@6.4.6(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
+        version: 5.1.2(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@7.3.8(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
       wrangler:
         specifier: workspace:*
         version: link:../../packages/wrangler
@@ -1402,10 +1402,10 @@ importers:
         version: 5.8.3
       undici:
         specifier: catalog:default
-        version: 6.27.0
+        version: 6.29.1
       vitest:
         specifier: catalog:default
-        version: 4.1.12(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@6.4.6(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
+        version: 5.1.2(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@7.3.8(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
       wrangler:
         specifier: workspace:*
         version: link:../../packages/wrangler
@@ -1423,10 +1423,10 @@ importers:
         version: 5.8.3
       undici:
         specifier: catalog:default
-        version: 6.27.0
+        version: 6.29.1
       vitest:
         specifier: catalog:default
-        version: 4.1.12(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@6.4.6(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
+        version: 5.1.2(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@7.3.8(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
       wrangler:
         specifier: workspace:*
         version: link:../../packages/wrangler
@@ -1441,10 +1441,10 @@ importers:
         version: 5.8.3
       undici:
         specifier: catalog:default
-        version: 6.27.0
+        version: 6.29.1
       vitest:
         specifier: catalog:default
-        version: 4.1.12(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@6.4.6(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
+        version: 5.1.2(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@7.3.8(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
       wrangler:
         specifier: workspace:*
         version: link:../../packages/wrangler
@@ -1486,7 +1486,7 @@ importers:
         version: 5.0.1
       undici:
         specifier: catalog:default
-        version: 6.27.0
+        version: 6.29.1
 
   packages/containers-shared:
     devDependencies:
@@ -1504,7 +1504,7 @@ importers:
         version: 5.8.3
       vitest:
         specifier: catalog:default
-        version: 4.1.12(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@6.4.6(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
+        version: 5.1.2(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@7.3.8(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
 
   packages/create-cloudflare:
     devDependencies:
@@ -1636,16 +1636,16 @@ importers:
         version: 5.8.3
       undici:
         specifier: catalog:default
-        version: 6.27.0
+        version: 6.29.1
       vite:
         specifier: catalog:default
-        version: 6.4.6(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2)(tsx@3.12.10)
+        version: 7.3.8(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2)(tsx@3.12.10)
       vite-tsconfig-paths:
         specifier: ^4.0.8
-        version: 4.2.0(typescript@5.8.3)(vite@6.4.6(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
+        version: 4.2.0(typescript@5.8.3)(vite@7.3.8(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
       vitest:
         specifier: catalog:default
-        version: 4.1.12(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@6.4.6(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
+        version: 5.1.2(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@7.3.8(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
       which-pm-runs:
         specifier: ^1.1.0
         version: 1.1.0
@@ -1811,13 +1811,13 @@ importers:
         version: 1.1.0
       undici:
         specifier: catalog:default
-        version: 6.27.0
+        version: 6.29.1
       workerd:
         specifier: 1.20250902.0
         version: 1.20250902.0
       ws:
         specifier: catalog:default
-        version: 8.21.0
+        version: 8.21.1
       youch:
         specifier: 4.1.0-beta.10
         version: 4.1.0-beta.10(patch_hash=flgmw54jmjdxqmelxigtxg6kum)
@@ -1993,7 +1993,7 @@ importers:
     devDependencies:
       '@cloudflare/vitest-pool-workers':
         specifier: ^0.8.19
-        version: 0.8.19(@cloudflare/workers-types@4.20250902.0)(@vitest/runner@4.1.12)(@vitest/snapshot@4.1.12)(vitest@4.1.12(@types/node@20.19.9)(vite@6.4.6(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2)))
+        version: 0.8.19(@cloudflare/workers-types@4.20250902.0)(@vitest/runner@4.1.12)(@vitest/snapshot@4.1.12)(vitest@5.1.2(@types/node@20.19.9)(vite@7.3.8(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2)))
       '@cloudflare/workers-shared':
         specifier: workspace:*
         version: link:../workers-shared
@@ -2014,13 +2014,13 @@ importers:
         version: 0.4.1
       vitest:
         specifier: catalog:default
-        version: 4.1.12(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@6.4.6(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
+        version: 5.1.2(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@7.3.8(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
 
   packages/playground-preview-worker:
     dependencies:
       hono:
-        specifier: ^4.13.16
-        version: 4.13.16
+        specifier: ^4.13.23
+        version: 4.13.23
       zod:
         specifier: ^3.22.3
         version: 3.22.3
@@ -2048,7 +2048,7 @@ importers:
         version: 3.3.1(patch_hash=b5gffumfuckaq3c77sda2gdfuq)
       undici:
         specifier: catalog:default
-        version: 6.27.0
+        version: 6.29.1
       wrangler:
         specifier: workspace:*
         version: link:../wrangler
@@ -2102,10 +2102,10 @@ importers:
     dependencies:
       '@hono/zod-validator':
         specifier: ^0.4.2
-        version: 0.4.2(hono@4.13.16)(zod@3.22.3)
+        version: 0.4.2(hono@4.13.23)(zod@3.22.3)
       hono:
-        specifier: ^4.13.16
-        version: 4.13.16
+        specifier: ^4.13.23
+        version: 4.13.23
       zod:
         specifier: ^3.22.3
         version: 3.22.3
@@ -2164,7 +2164,7 @@ importers:
         version: link:../wrangler
       ws:
         specifier: catalog:default
-        version: 8.21.0
+        version: 8.21.1
     devDependencies:
       '@cloudflare/containers-shared':
         specifier: workspace:*
@@ -2204,7 +2204,7 @@ importers:
         version: 7.0.0(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2)
       vitest:
         specifier: catalog:default
-        version: 4.1.12(@types/node@20.19.9)(vite@7.0.0(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
+        version: 5.1.2(@types/node@20.19.9)(vite@7.0.0(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
 
   packages/vite-plugin-cloudflare/playground:
     devDependencies:
@@ -3232,10 +3232,10 @@ importers:
         version: 5.8.3
       undici:
         specifier: catalog:default
-        version: 6.27.0
+        version: 6.29.1
       vitest:
         specifier: catalog:default
-        version: 4.1.12(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@6.4.6(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
+        version: 5.1.2(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@7.3.8(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
 
   packages/workers-editor-shared:
     dependencies:
@@ -3266,7 +3266,7 @@ importers:
         version: 8.35.1(eslint@8.57.1)(typescript@5.8.3)
       '@vitejs/plugin-react':
         specifier: ^4.3.3
-        version: 4.3.3(vite@6.4.6(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2)(tsx@3.12.10))
+        version: 4.3.3(vite@7.3.8(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2)(tsx@3.12.10))
       eslint:
         specifier: ^8.57.1
         version: 8.57.1
@@ -3281,10 +3281,10 @@ importers:
         version: 5.8.3
       vite:
         specifier: catalog:default
-        version: 6.4.6(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2)(tsx@3.12.10)
+        version: 7.3.8(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2)(tsx@3.12.10)
       vite-plugin-dts:
         specifier: ^4.0.1
-        version: 4.0.1(@types/node@20.19.9)(rollup@4.44.1)(typescript@5.8.3)(vite@6.4.6(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
+        version: 4.0.1(@types/node@20.19.9)(rollup@4.44.1)(typescript@5.8.3)(vite@7.3.8(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
 
   packages/workers-playground:
     dependencies:
@@ -3367,8 +3367,8 @@ importers:
         specifier: ^2.2.0
         version: 2.2.2(react@18.3.1)
       uuid:
-        specifier: ^14.0.0
-        version: 14.0.0
+        specifier: ^14.0.1
+        version: 14.0.1
     devDependencies:
       '@types/glob-to-regexp':
         specifier: ^0.4.1
@@ -3390,7 +3390,7 @@ importers:
         version: 8.35.1(eslint@8.57.1)(typescript@5.8.3)
       '@vitejs/plugin-react':
         specifier: ^4.3.3
-        version: 4.3.3(vite@6.4.6(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2)(tsx@3.12.10))
+        version: 4.3.3(vite@7.3.8(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2)(tsx@3.12.10))
       eslint:
         specifier: ^8.57.1
         version: 8.57.1
@@ -3399,10 +3399,10 @@ importers:
         version: 3.12.10
       undici:
         specifier: catalog:default
-        version: 6.27.0
+        version: 6.29.1
       vite:
         specifier: catalog:default
-        version: 6.4.6(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2)(tsx@3.12.10)
+        version: 7.3.8(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2)(tsx@3.12.10)
       wrangler:
         specifier: workspace:^
         version: link:../wrangler
@@ -3414,7 +3414,7 @@ importers:
         version: link:../eslint-config-worker
       '@cloudflare/vitest-pool-workers':
         specifier: ^0.7.0
-        version: 0.7.8(@cloudflare/workers-types@4.20250902.0)(@vitest/runner@4.1.12)(@vitest/snapshot@4.1.12)(vitest@4.1.12(@types/node@20.19.9)(vite@6.4.6(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2)))
+        version: 0.7.8(@cloudflare/workers-types@4.20250902.0)(@vitest/runner@4.1.12)(@vitest/snapshot@4.1.12)(vitest@5.1.2(@types/node@20.19.9)(vite@7.3.8(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2)))
       '@cloudflare/workers-tsconfig':
         specifier: workspace:*
         version: link:../workers-tsconfig
@@ -3446,8 +3446,8 @@ importers:
         specifier: catalog:default
         version: 5.8.3
       vitest:
-        specifier: ~4.1.11
-        version: 4.1.12(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@6.4.6(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
+        specifier: ~5.1.2
+        version: 5.1.2(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@7.3.8(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
       zod:
         specifier: ^3.22.3
         version: 3.22.3
@@ -3473,7 +3473,7 @@ importers:
         version: 5.8.3
       vitest:
         specifier: catalog:default
-        version: 4.1.12(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@6.4.6(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
+        version: 5.1.2(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@7.3.8(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
       wrangler:
         specifier: workspace:*
         version: link:../wrangler
@@ -3498,7 +3498,7 @@ importers:
         version: link:../eslint-config-worker
       '@cloudflare/vitest-pool-workers':
         specifier: ^0.8.19
-        version: 0.8.19(@cloudflare/workers-types@4.20250902.0)(@vitest/runner@4.1.12)(@vitest/snapshot@4.1.12)(vitest@4.1.12(@types/node@20.19.9)(vite@6.4.6(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2)))
+        version: 0.8.19(@cloudflare/workers-types@4.20250902.0)(@vitest/runner@4.1.12)(@vitest/snapshot@4.1.12)(vitest@5.1.2(@types/node@20.19.9)(vite@7.3.8(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2)))
       '@cloudflare/workers-tsconfig':
         specifier: workspace:*
         version: link:../workers-tsconfig
@@ -3519,7 +3519,7 @@ importers:
         version: 5.8.3
       vitest:
         specifier: catalog:default
-        version: 4.1.12(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@6.4.6(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
+        version: 5.1.2(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@7.3.8(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
 
   packages/wrangler:
     dependencies:
@@ -3644,7 +3644,7 @@ importers:
         version: 17.0.24
       '@vitest/ui':
         specifier: catalog:default
-        version: 3.2.3(vitest@4.1.12)
+        version: 3.2.3(vitest@5.1.2)
       '@webcontainer/env':
         specifier: ^1.1.0
         version: 1.1.0
@@ -3748,8 +3748,8 @@ importers:
         specifier: ^1.1.0
         version: 1.1.0
       shell-quote:
-        specifier: ^1.11.0
-        version: 1.11.0
+        specifier: ^1.12.0
+        version: 1.12.0
       signal-exit:
         specifier: ^3.0.7
         version: 3.0.7
@@ -3779,19 +3779,19 @@ importers:
         version: 5.8.3
       undici:
         specifier: catalog:default
-        version: 6.27.0
+        version: 6.29.1
       update-check:
         specifier: ^1.5.4
         version: 1.5.4
       vitest:
         specifier: catalog:default
-        version: 4.1.12(@types/node@20.19.9)(@vitest/ui@3.2.3)(msw@2.4.3(typescript@5.8.3))(vite@6.4.6(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
+        version: 5.1.2(@types/node@20.19.9)(@vitest/ui@3.2.3)(msw@2.4.3(typescript@5.8.3))(vite@7.3.8(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
       vitest-websocket-mock:
         specifier: ^0.4.0
-        version: 0.4.0(vitest@4.1.12)
+        version: 0.4.0(vitest@5.1.2)
       ws:
         specifier: catalog:default
-        version: 8.21.0
+        version: 8.21.1
       xdg-app-paths:
         specifier: ^8.3.0
         version: 8.3.0
@@ -3827,7 +3827,7 @@ importers:
         version: 2.2.0
       undici:
         specifier: catalog:default
-        version: 6.27.0
+        version: 6.29.1
       wrangler:
         specifier: workspace:*
         version: link:../packages/wrangler
@@ -5860,6 +5860,9 @@ packages:
   '@jridgewell/trace-mapping@0.3.25':
     resolution: {integrity: sha512-vNk6aEwybGtawWmy/PzwnGDOjCkLWSD2wqvjGGAgOAwCGWySYXfYoxt00IJkTF+8Lb57DwOb3Aa0o9CApepiYQ==}
 
+  '@jridgewell/trace-mapping@0.3.31':
+    resolution: {integrity: sha512-zzNR+SdQSDJzc8joaeP8QQoCQr8NuYx2dIIytl1QeBEZHJ9uW6hebsrYgbz8hJwUQao3TWCMtmfV8Nu1twOLAw==}
+
   '@jridgewell/trace-mapping@0.3.9':
     resolution: {integrity: sha512-3Belt6tdc8bPgAtbcmdtNJlirVoTmEb5e2gC94PnkwEW9jI6CAHUeoG85tjWP5WquqfavoMtMwiG4P926ZKKuQ==}
 
@@ -6972,9 +6975,6 @@ packages:
   '@speed-highlight/core@1.2.7':
     resolution: {integrity: sha512-0dxmVj4gxg3Jg879kvFS/msl4s9F3T9UXC1InxgOf7t5NvcPD97u/WTA5vL/IxWHMn7qSxBozqrnnE2wvl1m8g==}
 
-  '@standard-schema/spec@1.1.0':
-    resolution: {integrity: sha512-l2aFy5jALhniG5HgqrD6jXLi/rUWrKvqN/qJx6yoJsgKhblVd+iqqU4RCXavm/jPityDo5TCvKMnpjKnOriy0w==}
-
   '@styled-system/background@5.1.2':
     resolution: {integrity: sha512-jtwH2C/U6ssuGSvwTN3ri/IyjdHb8W9X/g8Y0JLcrH02G+BW3OS8kZdHphF1/YyRklnrKrBT2ngwGUK6aqqV3A==}
 
@@ -7574,13 +7574,10 @@ packages:
     peerDependencies:
       vite: ^4.2.0 || ^5.0.0 || ^6.0.0
 
-  '@vitest/expect@4.1.12':
-    resolution: {integrity: sha512-vFlTt+YEu9WBpNjdGayNmlMVzrWPi1+sv853/7t2FU7hpO5gAFBKHzQmkCq5Xjpr+evegF2994LQT3hF3mRlqQ==}
-
-  '@vitest/mocker@4.1.12':
-    resolution: {integrity: sha512-fKShNpKZzupWZuY0z7egydvL0sqW4INEZBEExMBMAa6izlENEVHwoXgdaTCaBZ5fwlr4xf2o1wXC83n9RpO+NA==}
+  '@vitest/mocker@5.1.2':
+    resolution: {integrity: sha512-UGc97wUIy0Ji2+9GxzHEJiOhiwkaukgE7VYcUNnjpX3sWnwQ8XogmNXX4WyOukxYgKb8Nh2XFa7KId0ZjpmVhQ==}
     peerDependencies:
-      msw: ^2.4.9
+      msw: ^2.4.9 || ^3.0.0
       vite: ^6.0.0 || ^7.0.0 || ^8.0.0
     peerDependenciesMeta:
       msw:
@@ -7609,8 +7606,8 @@ packages:
   '@vitest/snapshot@4.1.12':
     resolution: {integrity: sha512-ko1y1Qgb/slzQ9mr+b89Cuqud8WG1TKtsPD8r7ZUBdvVOGt85Af2HwCqHujrhwJq95hs/9RM7fcAPg57o1vlzw==}
 
-  '@vitest/spy@4.1.12':
-    resolution: {integrity: sha512-RGq9x4JNGNTZHEJxvN0oSiJjeSCExm0n2gZKKJZHY9cX5AVA6M7VJILBT3ZJ/tJ/0J9uWT7fETV9/btoi//vSg==}
+  '@vitest/spy@5.1.2':
+    resolution: {integrity: sha512-PQl0/3+p9GaY71+MHywN6oyHfLhVDD5kcbm7oNRldA2F0ExMU3S8RQdnpteJ9gFAdK5P6KCgE6LqCpUgy57KzA==}
 
   '@vitest/ui@3.2.3':
     resolution: {integrity: sha512-9aR2tY/WT7GRHGEH/9sSIipJqeA21Eh3C6xmiOVmfyBCFmezUSUFLalpaSmRHlRzWCKQU10yz3AHhKuYcdnZGQ==}
@@ -9649,8 +9646,8 @@ packages:
     resolution: {integrity: sha512-kUGoI3p7u6B41z/dp33G6OaL7J4DRqRYwVmeIlwLClx7yaaAy7hoDExnuejTKtuDwfcatGmddHDEOjf6EyIxtQ==}
     engines: {node: '>=10.0.0'}
 
-  hono@4.13.16:
-    resolution: {integrity: sha512-AOLOEhvrV+iH92xXCnFr/5+3KjPKcI3xP63XJtX5spAnkznPdHijlIsUTpi7/9EhWqrTCekw5c5zh1K+YsVw7A==}
+  hono@4.13.23:
+    resolution: {integrity: sha512-OS90dj7dcsftEEWCOef8jRbnHE5lbrOq0hNRqjSyPsOnaGZvvfof1KS05hQNb4kUOCfDq1mG3PmHoX37DMnHQg==}
     engines: {node: '>=16.9.0'}
 
   hookable@5.5.3:
@@ -10441,6 +10438,9 @@ packages:
   magic-string@0.30.21:
     resolution: {integrity: sha512-vd2F4YUyEXKGcLHoq+TEyCjxueSeHnFxyyjNp80yg0XV4vUhnDer/lvvlqM/arB5bXQN5K2/3oinyCRyx8T2CQ==}
 
+  magic-string@1.4.5:
+    resolution: {integrity: sha512-oLLC2+YvQUfAa+vxoufE/yc1icb87M9iXIRqAoR/2EhE/8cb3SF/+Gi0c2By1B+5Vz2e2vQtUvHiu1+63Znh+w==}
+
   make-dir@3.1.0:
     resolution: {integrity: sha512-g3FeP20LNwhALb/6Cz6Dd4F2ngze0jz7tbzrD2wAV+o9FeNHe4rL+yK2md0J/fiSf1sa1ADhXqi5+oVwOM/eGw==}
     engines: {node: '>=8'}
@@ -10850,8 +10850,8 @@ packages:
   obuf@1.1.2:
     resolution: {integrity: sha512-PX1wu0AmAdPqOL1mWhqmlOd8kOIZQwGZw6rh7uby9fTc5lhaOWFLX3I6R1hrF9k3zUY40e6igsLGkDXK92LJNg==}
 
-  obug@2.2.1:
-    resolution: {integrity: sha512-XrsrhT5sybtKI6wakr2SPOlGZWWYbUXZ7a0jT8/QOeAPau+1X/bSegNe5YR75oJmEZQbKningirmGOEJCIk61Q==}
+  obug@3.0.0:
+    resolution: {integrity: sha512-5vvB5+W7ePv+p3uqxi+RcW1XAzLW0/hxt3/4X4Lc4qHudzOhmBiBwOY6DRob4WnanAEGvNcLjF+KNOufrUoEQw==}
     engines: {node: '>=12.20.0'}
 
   ohash@2.0.11:
@@ -11172,6 +11172,10 @@ packages:
 
   picomatch@4.0.5:
     resolution: {integrity: sha512-RvwwcruNjI1ncT5xRakeyS9Lf8lcItv34KD+aif+VH9kduAyfYBipGh12274xtenIPZ119/R9BdTBa8gAwSh0A==}
+    engines: {node: '>=12'}
+
+  picomatch@4.0.7:
+    resolution: {integrity: sha512-qcJu88Q2IWqJsDD529JKMdwGm/dvInW4HvQnRwiH9JtihJvzGOscDtHE3x1pBKeUOTysQ8kVmLnJ2kJu7yhcGA==}
     engines: {node: '>=12'}
 
   pify@3.0.0:
@@ -12067,8 +12071,8 @@ packages:
     resolution: {integrity: sha512-7++dFhtcx3353uBaq8DDR4NuxBetBzC7ZQOhmTQInHEd6bSrXdiEyzCvG07Z44UYdLShWUyXt5M/yhz8ekcb1A==}
     engines: {node: '>=8'}
 
-  shell-quote@1.11.0:
-    resolution: {integrity: sha512-JdxDPD0DBTyu08pq0kPC0xSNet/qsU07qT6IsX1AS8oO2ICNRY4ldNa8OAI6PuwAH8tG3lxEhbqmyp4Dw4036g==}
+  shell-quote@1.12.0:
+    resolution: {integrity: sha512-PcByqNyT/38F2kDNi006HAMRJaULuBzq/FOsw3qdZvX/GA9W/jamDaRskgHjubHiftXK5sIFxLNkvrXUwcof6Q==}
     engines: {node: '>= 0.4'}
 
   shell-quote@1.8.1:
@@ -12100,9 +12104,6 @@ packages:
   side-channel@1.1.0:
     resolution: {integrity: sha512-ZX99e6tRweoUXqR+VBrslhda51Nh5MTQwou5tnUDgbtyM0dBgmhEDtWGP/xbKn6hqfPRHujUNwz5fy/wbbhnpw==}
     engines: {node: '>= 0.4'}
-
-  siginfo@2.0.0:
-    resolution: {integrity: sha512-ybx0WO1/8bSBLEWXZvEd7gMW3Sn3JFlW3TvX1nREbDLRNQNaeNN8WK0meBwPdAaOI7TtRRRJn/Es1zhrrCHu7g==}
 
   signal-exit@3.0.7:
     resolution: {integrity: sha512-wnD2ZE+l+SPC/uoS0vXeE9L1+0wuaMqKlfz9AMUo38JsyLSBWSFcHR1Rri62LZc12vLr1gb3jl7iwQhgwpAbGQ==}
@@ -12231,9 +12232,6 @@ packages:
   stack-utils@2.0.6:
     resolution: {integrity: sha512-XlkWvfIm6RmsWtNJx+uqtKLS8eqFbxUg0ZzLXqY0caEy9l7hruX8IpiDnjsLavoBgqCCR71TqWO8MaXYheJ3RQ==}
     engines: {node: '>=10'}
-
-  stackback@0.0.2:
-    resolution: {integrity: sha512-1XMJE5fQo1jGH6Y/7ebnwPOBEkIEnT4QF32d5R1+VXdXveM0IBMJt8zfaxX1P3QhVwrYe+576+jkANtSS2mBbw==}
 
   stacktracey@2.1.8:
     resolution: {integrity: sha512-Kpij9riA+UNg7TnphqjH7/CzctQ/owJGNbFkfEeve4Z4uxT5+JapVLFXcsurIfN34gnTWZNJ/f7NMG0E8JDzTw==}
@@ -12455,8 +12453,9 @@ packages:
   timeago.js@4.0.2:
     resolution: {integrity: sha512-a7wPxPdVlQL7lqvitHGGRsofhdwtkoSXPGATFuSOA2i1ZNQEPLrGnj68vOp2sOJTCFAQVXPeNMX/GctBaO9L2w==}
 
-  tinybench@2.9.0:
-    resolution: {integrity: sha512-0+DUvqWMValLmha6lr4kD8iAMK1HzV0/aKnCtWb9v9641TnP/MFb7Pc2bxoxQjTXAErryXVgUOfv2YqNllqGeg==}
+  tinybench@6.2.5:
+    resolution: {integrity: sha512-b/8GRMdnY4cqkfCLyaFpTGIv1qwfi3oT0mWaepwT++6Z/ZrYehNfZZ2JDKVLKGhNoEkS3IIB1ELtCT0XS5DtOA==}
+    engines: {node: '>=20.0.0'}
 
   tinyexec@0.3.2:
     resolution: {integrity: sha512-KQQR9yN7R5+OSwaK0XQoj22pwHoTlgYqmUscPYoknOoWCWfj/5/ABTMRi69FrKU5ffPVh5QcFikpWJI/P1ocHA==}
@@ -12751,8 +12750,8 @@ packages:
     resolution: {integrity: sha512-zICwjrDrcrUE0pyyJc1I2QzBkLM8FINsgOrt6WjA+BgajVq9Nxu2PbFFXUrAggLfDXlZGZBVZYw7WNV5KiBiBA==}
     engines: {node: '>=14.0'}
 
-  undici@6.27.0:
-    resolution: {integrity: sha512-YmfV3YnEDzXRC5lZ2jWtWWHKGUm1zIt8AhesR1tens+HTNv+YZlN/dp6G727LOvMJ8xjP9Be7Y2Sdr96LDm+pg==}
+  undici@6.29.1:
+    resolution: {integrity: sha512-EvRlUt/QqAEvXdQeRMYUfwOQsfzpDztykrG2owGEE/rBOBoYv9uF39ZzsNDh4lTFHhTr2XOZjKkYgueD12ZmGA==}
     engines: {node: '>=18.17'}
 
   unenv@2.0.0-rc.14:
@@ -12838,8 +12837,8 @@ packages:
     resolution: {integrity: sha512-pMZTvIkT1d+TFGvDOqodOclx0QWkkgi6Tdoa8gC8ffGAAqz9pzPTZWAybbsHHoED/ztMtkv/VoYTYyShUn81hA==}
     engines: {node: '>= 0.4.0'}
 
-  uuid@14.0.0:
-    resolution: {integrity: sha512-Qo+uWgilfSmAhXCMav1uYFynlQO7fMFiMVZsQqZRMIXp0O7rR7qjkj+cPvBHLgBqi960QCoo/PH2/6ZtVqKvrg==}
+  uuid@14.0.1:
+    resolution: {integrity: sha512-6ZxzVpzDXDa3bJWaHilVayA+BH/1zmxCJoVgvmqJnid/gPoKHxUrS/aC/T6LGQtNHT+XHG9fXPJB4d+IrU30Ew==}
     hasBin: true
 
   uuid@8.3.2:
@@ -12899,19 +12898,19 @@ packages:
       vite:
         optional: true
 
-  vite@6.4.6:
-    resolution: {integrity: sha512-RtsraAwEG68idOA6iUOoIpOlcSKROnf815aIq9qHTSrDNpLoBrBa12suyfcEd8qn0xwOVQI1Yhm1GbmTjF600A==}
-    engines: {node: ^18.0.0 || ^20.0.0 || >=22.0.0}
+  vite@7.0.0:
+    resolution: {integrity: sha512-ixXJB1YRgDIw2OszKQS9WxGHKwLdCsbQNkpJN171udl6szi/rIySHL6/Os3s2+oE4P/FLD4dxg4mD7Wust+u5g==}
+    engines: {node: ^20.19.0 || >=22.12.0}
     hasBin: true
     peerDependencies:
       '@types/node': ^20.19.9
       jiti: '>=1.21.0'
-      less: '*'
+      less: ^4.0.0
       lightningcss: ^1.21.0
-      sass: '*'
-      sass-embedded: '*'
-      stylus: '*'
-      sugarss: '*'
+      sass: ^1.70.0
+      sass-embedded: ^1.70.0
+      stylus: '>=0.54.8'
+      sugarss: ^5.0.0
       terser: ^5.16.0
       tsx: ^4.8.1
       yaml: ^2.4.2
@@ -12939,8 +12938,8 @@ packages:
       yaml:
         optional: true
 
-  vite@7.0.0:
-    resolution: {integrity: sha512-ixXJB1YRgDIw2OszKQS9WxGHKwLdCsbQNkpJN171udl6szi/rIySHL6/Os3s2+oE4P/FLD4dxg4mD7Wust+u5g==}
+  vite@7.3.8:
+    resolution: {integrity: sha512-3tTi78MAKhVk9h+YZVXMQ8POmneJuE97QUPAWtJghHzhH7BAyiqQOC2KZh1DWOsu/USB2cRXhznPByaabvYXfw==}
     engines: {node: ^20.19.0 || >=22.12.0}
     hasBin: true
     peerDependencies:
@@ -12984,20 +12983,20 @@ packages:
     peerDependencies:
       vitest: '>=2'
 
-  vitest@4.1.12:
-    resolution: {integrity: sha512-5eWdz2yb3ajxWF3C8C4TjkXl7FGm3n2E/VlazALrQHzK7nYMSGFnCZto0bbPNl77AwkOZVLk0YnBAejUu0NiWA==}
-    engines: {node: ^20.0.0 || ^22.0.0 || >=24.0.0}
+  vitest@5.1.2:
+    resolution: {integrity: sha512-VIa2wXV208WraXUbzH+dQUrGcFpPuaiRA8HlhXS8R6/sy9cynw6OMqGj8fmAlH1hot7huTCtWUE14+FdXU3eLw==}
+    engines: {node: ^22.12.0 || ^24.0.0 || >=26.0.0}
     hasBin: true
     peerDependencies:
       '@edge-runtime/vm': '*'
       '@opentelemetry/api': ^1.9.0
       '@types/node': ^20.19.9
-      '@vitest/browser-playwright': 4.1.12
-      '@vitest/browser-preview': 4.1.12
-      '@vitest/browser-webdriverio': ^4.1.11
-      '@vitest/coverage-istanbul': 4.1.12
-      '@vitest/coverage-v8': 4.1.12
-      '@vitest/ui': 4.1.12
+      '@vitest/browser-playwright': 5.1.2
+      '@vitest/browser-preview': 5.1.2
+      '@vitest/browser-webdriverio': ^5.0.0-beta.5 || >=5.0.0
+      '@vitest/coverage-istanbul': 5.1.2
+      '@vitest/coverage-v8': 5.1.2
+      '@vitest/ui': 5.1.2
       happy-dom: '*'
       jsdom: '*'
       vite: ^5.0.0
@@ -13081,9 +13080,9 @@ packages:
     engines: {node: '>= 8'}
     hasBin: true
 
-  why-is-node-running@2.3.0:
-    resolution: {integrity: sha512-hUrmaWBdVDcxvYqnyh09zunKzROWjbZTiNy8dBEjkS7ehEDQibXJ7XvlmtbwuTclUiIyN+CyXQD4Vmko8fNm8w==}
-    engines: {node: '>=8'}
+  why-is-node-running@3.2.1:
+    resolution: {integrity: sha512-Tb2FUhB4vUsGQlfSquQLYkApkuPAFQXGFzxWKHHumVz2dK+X1RUm/HnID4+TfIGYJ1kTcwOaCk/buYCEJr6YjQ==}
+    engines: {node: '>=20.11'}
     hasBin: true
 
   wide-align@1.1.5:
@@ -13183,8 +13182,8 @@ packages:
       utf-8-validate:
         optional: true
 
-  ws@8.21.0:
-    resolution: {integrity: sha512-Vsp28b7DRcimFQvrqu2Wek3z1iYxDCWqHYB8Qsnk/S4RfaCQzPGPyBNuVjJV3cd6UiKtUtp6sNM77gWvzcCH+g==}
+  ws@8.21.1:
+    resolution: {integrity: sha512-+0NTnW77fFN/DjQi6k/Sq/Yvk4Sgajw7urW8V+asjXnRgDs9gyGkdb7EzgfhA4goXsRIZKE28fzIXBHEzhuiWw==}
     engines: {node: '>=10.0.0'}
     peerDependencies:
       bufferutil: ^4.0.1
@@ -14515,7 +14514,7 @@ snapshots:
       lodash.memoize: 4.1.2
       marked: 0.3.19
 
-  '@cloudflare/vitest-pool-workers@0.7.8(@cloudflare/workers-types@4.20250902.0)(@vitest/runner@4.1.12)(@vitest/snapshot@4.1.12)(vitest@4.1.12(@types/node@20.19.9)(vite@6.4.6(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2)))':
+  '@cloudflare/vitest-pool-workers@0.7.8(@cloudflare/workers-types@4.20250902.0)(@vitest/runner@4.1.12)(@vitest/snapshot@4.1.12)(vitest@5.1.2(@types/node@20.19.9)(vite@7.3.8(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2)))':
     dependencies:
       '@vitest/runner': 4.1.12
       '@vitest/snapshot': 4.1.12
@@ -14525,7 +14524,7 @@ snapshots:
       esbuild: 0.17.19
       miniflare: 3.20250310.0
       semver: 7.7.1
-      vitest: 4.1.12(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@6.4.6(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
+      vitest: 5.1.2(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@7.3.8(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
       wrangler: 3.114.1(@cloudflare/workers-types@4.20250902.0)
       zod: 3.22.3
     transitivePeerDependencies:
@@ -14533,7 +14532,7 @@ snapshots:
       - bufferutil
       - utf-8-validate
 
-  '@cloudflare/vitest-pool-workers@0.8.19(@cloudflare/workers-types@4.20250902.0)(@vitest/runner@4.1.12)(@vitest/snapshot@4.1.12)(vitest@4.1.12(@types/node@20.19.9)(vite@6.4.6(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2)))':
+  '@cloudflare/vitest-pool-workers@0.8.19(@cloudflare/workers-types@4.20250902.0)(@vitest/runner@4.1.12)(@vitest/snapshot@4.1.12)(vitest@5.1.2(@types/node@20.19.9)(vite@7.3.8(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2)))':
     dependencies:
       '@vitest/runner': 4.1.12
       '@vitest/snapshot': 4.1.12
@@ -14542,7 +14541,7 @@ snapshots:
       devalue: 4.3.3
       miniflare: 4.20250417.0
       semver: 7.7.2
-      vitest: 4.1.12(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@6.4.6(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
+      vitest: 5.1.2(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@7.3.8(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
       wrangler: 4.12.1(@cloudflare/workers-types@4.20250902.0)
       zod: 3.22.3
     transitivePeerDependencies:
@@ -15209,9 +15208,9 @@ snapshots:
 
   '@fastify/busboy@2.1.1': {}
 
-  '@hono/zod-validator@0.4.2(hono@4.13.16)(zod@3.22.3)':
+  '@hono/zod-validator@0.4.2(hono@4.13.23)(zod@3.22.3)':
     dependencies:
-      hono: 4.13.16
+      hono: 4.13.23
       zod: 3.22.3
 
   '@humanwhocodes/config-array@0.13.0':
@@ -15382,12 +15381,12 @@ snapshots:
   '@jridgewell/gen-mapping@0.1.1':
     dependencies:
       '@jridgewell/set-array': 1.2.1
-      '@jridgewell/sourcemap-codec': 1.5.0
+      '@jridgewell/sourcemap-codec': 1.6.0
 
   '@jridgewell/gen-mapping@0.3.5':
     dependencies:
       '@jridgewell/set-array': 1.2.1
-      '@jridgewell/sourcemap-codec': 1.5.0
+      '@jridgewell/sourcemap-codec': 1.6.0
       '@jridgewell/trace-mapping': 0.3.25
 
   '@jridgewell/resolve-uri@3.1.0': {}
@@ -15401,7 +15400,12 @@ snapshots:
   '@jridgewell/trace-mapping@0.3.25':
     dependencies:
       '@jridgewell/resolve-uri': 3.1.0
-      '@jridgewell/sourcemap-codec': 1.5.0
+      '@jridgewell/sourcemap-codec': 1.6.0
+
+  '@jridgewell/trace-mapping@0.3.31':
+    dependencies:
+      '@jridgewell/resolve-uri': 3.1.0
+      '@jridgewell/sourcemap-codec': 1.6.0
 
   '@jridgewell/trace-mapping@0.3.9':
     dependencies:
@@ -16025,10 +16029,10 @@ snapshots:
       '@rollup/pluginutils': 5.1.4(rollup@4.30.1)
       commondir: 1.0.1
       estree-walker: 2.0.2
-      fdir: 6.5.0(picomatch@4.0.5)
+      fdir: 6.5.0(picomatch@4.0.7)
       is-reference: 1.2.1
-      magic-string: 0.30.17
-      picomatch: 4.0.5
+      magic-string: 0.30.21
+      picomatch: 4.0.7
     optionalDependencies:
       rollup: 4.30.1
 
@@ -16051,7 +16055,7 @@ snapshots:
   '@rollup/plugin-replace@6.0.2(rollup@4.30.1)':
     dependencies:
       '@rollup/pluginutils': 5.1.4(rollup@4.30.1)
-      magic-string: 0.30.17
+      magic-string: 0.30.21
     optionalDependencies:
       rollup: 4.30.1
 
@@ -16072,7 +16076,7 @@ snapshots:
     dependencies:
       '@types/estree': 1.0.6
       estree-walker: 2.0.2
-      picomatch: 4.0.5
+      picomatch: 4.0.7
     optionalDependencies:
       rollup: 4.30.1
 
@@ -16708,8 +16712,6 @@ snapshots:
       tslib: 2.8.1
 
   '@speed-highlight/core@1.2.7': {}
-
-  '@standard-schema/spec@1.1.0': {}
 
   '@styled-system/background@5.1.2':
     dependencies:
@@ -17419,14 +17421,14 @@ snapshots:
     dependencies:
       vite: 7.0.0(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2)
 
-  '@vitejs/plugin-react@4.3.3(vite@6.4.6(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2)(tsx@3.12.10))':
+  '@vitejs/plugin-react@4.3.3(vite@7.3.8(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2)(tsx@3.12.10))':
     dependencies:
       '@babel/core': 7.26.0
       '@babel/plugin-transform-react-jsx-self': 7.25.9(@babel/core@7.26.0)
       '@babel/plugin-transform-react-jsx-source': 7.25.9(@babel/core@7.26.0)
       '@types/babel__core': 7.20.5
       react-refresh: 0.14.2
-      vite: 6.4.6(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2)(tsx@3.12.10)
+      vite: 7.3.8(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2)(tsx@3.12.10)
     transitivePeerDependencies:
       - supports-color
 
@@ -17441,29 +17443,22 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@vitest/expect@4.1.12':
+  '@vitest/mocker@5.1.2(msw@2.4.3(typescript@5.8.3))(vite@7.3.8(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))':
     dependencies:
-      '@standard-schema/spec': 1.1.0
-      '@types/chai': 5.2.2
-      '@vitest/spy': 4.1.12
-      '@vitest/utils': 4.1.12
-      chai: 6.3.0
-      tinyrainbow: 3.2.0
-
-  '@vitest/mocker@4.1.12(msw@2.4.3(typescript@5.8.3))(vite@6.4.6(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))':
-    dependencies:
-      '@vitest/spy': 4.1.12
+      '@jridgewell/trace-mapping': 0.3.31
+      '@vitest/spy': 5.1.2
       estree-walker: 3.0.3
-      magic-string: 0.30.21
+      magic-string: 1.4.5
     optionalDependencies:
       msw: 2.4.3(typescript@5.8.3)
-      vite: 6.4.6(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2)(tsx@3.12.10)
+      vite: 7.3.8(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2)(tsx@3.12.10)
 
-  '@vitest/mocker@4.1.12(vite@7.0.0(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))':
+  '@vitest/mocker@5.1.2(vite@7.0.0(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))':
     dependencies:
-      '@vitest/spy': 4.1.12
+      '@jridgewell/trace-mapping': 0.3.31
+      '@vitest/spy': 5.1.2
       estree-walker: 3.0.3
-      magic-string: 0.30.21
+      magic-string: 1.4.5
     optionalDependencies:
       vite: 7.0.0(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2)
 
@@ -17503,9 +17498,9 @@ snapshots:
       magic-string: 0.30.21
       pathe: 2.0.3
 
-  '@vitest/spy@4.1.12': {}
+  '@vitest/spy@5.1.2': {}
 
-  '@vitest/ui@3.2.3(vitest@4.1.12)':
+  '@vitest/ui@3.2.3(vitest@5.1.2)':
     dependencies:
       '@vitest/utils': 3.2.3
       fflate: 0.8.2
@@ -17514,7 +17509,7 @@ snapshots:
       sirv: 3.0.1
       tinyglobby: 0.2.14
       tinyrainbow: 2.0.0
-      vitest: 4.1.12(@types/node@20.19.9)(@vitest/ui@3.2.3)(msw@2.4.3(typescript@5.8.3))(vite@6.4.6(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
+      vitest: 5.1.2(@types/node@20.19.9)(@vitest/ui@3.2.3)(msw@2.4.3(typescript@5.8.3))(vite@7.3.8(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
 
   '@vitest/utils@2.1.8':
     dependencies:
@@ -17625,7 +17620,7 @@ snapshots:
       '@vue/compiler-core': 3.3.4
       '@vue/shared': 3.3.4
       estree-walker: 2.0.2
-      magic-string: 0.30.17
+      magic-string: 0.30.21
 
   '@vue/shared@3.3.4': {}
 
@@ -19553,9 +19548,9 @@ snapshots:
     optionalDependencies:
       picomatch: 4.0.5
 
-  fdir@6.5.0(picomatch@4.0.5):
+  fdir@6.5.0(picomatch@4.0.7):
     optionalDependencies:
-      picomatch: 4.0.5
+      picomatch: 4.0.7
 
   fela-bindings@11.7.0(fela@11.7.0):
     dependencies:
@@ -20015,7 +20010,7 @@ snapshots:
 
   heap-js@2.5.0: {}
 
-  hono@4.13.16: {}
+  hono@4.13.23: {}
 
   hookable@5.5.3: {}
 
@@ -20725,6 +20720,10 @@ snapshots:
     dependencies:
       '@jridgewell/sourcemap-codec': 1.6.0
 
+  magic-string@1.4.5:
+    dependencies:
+      '@jridgewell/sourcemap-codec': 1.6.0
+
   make-dir@3.1.0:
     dependencies:
       semver: 6.3.1
@@ -21103,7 +21102,7 @@ snapshots:
 
   obuf@1.1.2: {}
 
-  obug@2.2.1: {}
+  obug@3.0.0: {}
 
   ohash@2.0.11: {}
 
@@ -21395,6 +21394,8 @@ snapshots:
   picomatch@4.0.2: {}
 
   picomatch@4.0.5: {}
+
+  picomatch@4.0.7: {}
 
   pify@3.0.0: {}
 
@@ -22114,7 +22115,7 @@ snapshots:
 
   rollup-plugin-dts@6.1.1(rollup@4.30.1)(typescript@5.8.3):
     dependencies:
-      magic-string: 0.30.17
+      magic-string: 0.30.21
       rollup: 4.30.1
       typescript: 5.8.3
     optionalDependencies:
@@ -22392,7 +22393,7 @@ snapshots:
 
   shebang-regex@3.0.0: {}
 
-  shell-quote@1.11.0: {}
+  shell-quote@1.12.0: {}
 
   shell-quote@1.8.1: {}
 
@@ -22436,8 +22437,6 @@ snapshots:
       side-channel-list: 1.0.0
       side-channel-map: 1.0.1
       side-channel-weakmap: 1.0.2
-
-  siginfo@2.0.0: {}
 
   signal-exit@3.0.7: {}
 
@@ -22566,8 +22565,6 @@ snapshots:
   stack-utils@2.0.6:
     dependencies:
       escape-string-regexp: 2.0.0
-
-  stackback@0.0.2: {}
 
   stacktracey@2.1.8:
     dependencies:
@@ -22848,7 +22845,7 @@ snapshots:
 
   timeago.js@4.0.2: {}
 
-  tinybench@2.9.0: {}
+  tinybench@6.2.5: {}
 
   tinyexec@0.3.2: {}
 
@@ -22866,8 +22863,8 @@ snapshots:
 
   tinyglobby@0.2.17:
     dependencies:
-      fdir: 6.5.0(picomatch@4.0.5)
-      picomatch: 4.0.5
+      fdir: 6.5.0(picomatch@4.0.7)
+      picomatch: 4.0.7
 
   tinyrainbow@1.2.0: {}
 
@@ -23175,7 +23172,7 @@ snapshots:
     dependencies:
       '@fastify/busboy': 2.1.1
 
-  undici@6.27.0: {}
+  undici@6.29.1: {}
 
   unenv@2.0.0-rc.14:
     dependencies:
@@ -23275,7 +23272,7 @@ snapshots:
 
   utils-merge@1.0.1: {}
 
-  uuid@14.0.0: {}
+  uuid@14.0.1: {}
 
   uuid@8.3.2: {}
 
@@ -23361,7 +23358,7 @@ snapshots:
       core-util-is: 1.0.2
       extsprintf: 1.3.0
 
-  vite-plugin-dts@4.0.1(@types/node@20.19.9)(rollup@4.44.1)(typescript@5.8.3)(vite@6.4.6(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2)):
+  vite-plugin-dts@4.0.1(@types/node@20.19.9)(rollup@4.44.1)(typescript@5.8.3)(vite@7.3.8(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2)):
     dependencies:
       '@microsoft/api-extractor': 7.47.4(@types/node@20.19.9)
       '@rollup/pluginutils': 5.1.0(rollup@4.44.1)
@@ -23375,37 +23372,22 @@ snapshots:
       typescript: 5.8.3
       vue-tsc: 2.0.29(typescript@5.8.3)
     optionalDependencies:
-      vite: 6.4.6(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2)(tsx@3.12.10)
+      vite: 7.3.8(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2)(tsx@3.12.10)
     transitivePeerDependencies:
       - '@types/node'
       - rollup
       - supports-color
 
-  vite-tsconfig-paths@4.2.0(typescript@5.8.3)(vite@6.4.6(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2)):
+  vite-tsconfig-paths@4.2.0(typescript@5.8.3)(vite@7.3.8(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2)):
     dependencies:
       debug: 4.4.1(supports-color@9.2.2)
       globrex: 0.1.2
       tsconfck: 2.1.1(typescript@5.8.3)
     optionalDependencies:
-      vite: 6.4.6(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2)(tsx@3.12.10)
+      vite: 7.3.8(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2)(tsx@3.12.10)
     transitivePeerDependencies:
       - supports-color
       - typescript
-
-  vite@6.4.6(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2)(tsx@3.12.10):
-    dependencies:
-      esbuild: 0.25.4
-      fdir: 6.5.0(picomatch@4.0.5)
-      picomatch: 4.0.5
-      postcss: 8.5.6
-      rollup: 4.44.1
-      tinyglobby: 0.2.17
-    optionalDependencies:
-      '@types/node': 20.19.9
-      fsevents: 2.3.3
-      jiti: 2.4.2
-      lightningcss: 1.29.2
-      tsx: 3.12.10
 
   vite@7.0.0(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2):
     dependencies:
@@ -23421,90 +23403,87 @@ snapshots:
       jiti: 2.4.2
       lightningcss: 1.29.2
 
-  vitest-websocket-mock@0.4.0(vitest@4.1.12):
+  vite@7.3.8(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2)(tsx@3.12.10):
+    dependencies:
+      esbuild: 0.28.1
+      fdir: 6.5.0(picomatch@4.0.7)
+      picomatch: 4.0.7
+      postcss: 8.5.6
+      rollup: 4.44.1
+      tinyglobby: 0.2.17
+    optionalDependencies:
+      '@types/node': 20.19.9
+      fsevents: 2.3.3
+      jiti: 2.4.2
+      lightningcss: 1.29.2
+      tsx: 3.12.10
+
+  vitest-websocket-mock@0.4.0(vitest@5.1.2):
     dependencies:
       '@vitest/utils': 2.1.8
       mock-socket: 9.3.1
-      vitest: 4.1.12(@types/node@20.19.9)(@vitest/ui@3.2.3)(msw@2.4.3(typescript@5.8.3))(vite@6.4.6(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
+      vitest: 5.1.2(@types/node@20.19.9)(@vitest/ui@3.2.3)(msw@2.4.3(typescript@5.8.3))(vite@7.3.8(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
 
-  vitest@4.1.12(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@6.4.6(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2)):
+  vitest@5.1.2(@opentelemetry/api@1.7.0)(@types/node@20.19.9)(vite@7.3.8(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2)):
     dependencies:
-      '@vitest/expect': 4.1.12
-      '@vitest/mocker': 4.1.12(msw@2.4.3(typescript@5.8.3))(vite@6.4.6(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
-      '@vitest/pretty-format': 4.1.12
-      '@vitest/runner': 4.1.12
-      '@vitest/snapshot': 4.1.12
-      '@vitest/spy': 4.1.12
-      '@vitest/utils': 4.1.12
+      '@types/chai': 5.2.2
+      '@vitest/mocker': 5.1.2(msw@2.4.3(typescript@5.8.3))(vite@7.3.8(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
+      chai: 6.3.0
       es-module-lexer: 2.3.2
       expect-type: 1.4.0
-      magic-string: 0.30.21
-      obug: 2.2.1
-      pathe: 2.0.3
-      picomatch: 4.0.5
+      magic-string: 1.4.5
+      obug: 3.0.0
+      picomatch: 4.0.7
       std-env: 4.3.0
-      tinybench: 2.9.0
+      tinybench: 6.2.5
       tinyexec: 1.4.0
       tinyglobby: 0.2.17
-      tinyrainbow: 3.2.0
-      vite: 6.4.6(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2)(tsx@3.12.10)
-      why-is-node-running: 2.3.0
+      vite: 7.3.8(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2)(tsx@3.12.10)
+      why-is-node-running: 3.2.1
     optionalDependencies:
       '@opentelemetry/api': 1.7.0
       '@types/node': 20.19.9
     transitivePeerDependencies:
       - msw
 
-  vitest@4.1.12(@types/node@20.19.9)(@vitest/ui@3.2.3)(msw@2.4.3(typescript@5.8.3))(vite@6.4.6(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2)):
+  vitest@5.1.2(@types/node@20.19.9)(@vitest/ui@3.2.3)(msw@2.4.3(typescript@5.8.3))(vite@7.3.8(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2)):
     dependencies:
-      '@vitest/expect': 4.1.12
-      '@vitest/mocker': 4.1.12(msw@2.4.3(typescript@5.8.3))(vite@6.4.6(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
-      '@vitest/pretty-format': 4.1.12
-      '@vitest/runner': 4.1.12
-      '@vitest/snapshot': 4.1.12
-      '@vitest/spy': 4.1.12
-      '@vitest/utils': 4.1.12
+      '@types/chai': 5.2.2
+      '@vitest/mocker': 5.1.2(msw@2.4.3(typescript@5.8.3))(vite@7.3.8(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
+      chai: 6.3.0
       es-module-lexer: 2.3.2
       expect-type: 1.4.0
-      magic-string: 0.30.21
-      obug: 2.2.1
-      pathe: 2.0.3
-      picomatch: 4.0.5
+      magic-string: 1.4.5
+      obug: 3.0.0
+      picomatch: 4.0.7
       std-env: 4.3.0
-      tinybench: 2.9.0
+      tinybench: 6.2.5
       tinyexec: 1.4.0
       tinyglobby: 0.2.17
-      tinyrainbow: 3.2.0
-      vite: 6.4.6(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2)(tsx@3.12.10)
-      why-is-node-running: 2.3.0
+      vite: 7.3.8(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2)(tsx@3.12.10)
+      why-is-node-running: 3.2.1
     optionalDependencies:
       '@types/node': 20.19.9
-      '@vitest/ui': 3.2.3(vitest@4.1.12)
+      '@vitest/ui': 3.2.3(vitest@5.1.2)
     transitivePeerDependencies:
       - msw
 
-  vitest@4.1.12(@types/node@20.19.9)(vite@7.0.0(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2)):
+  vitest@5.1.2(@types/node@20.19.9)(vite@7.0.0(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2)):
     dependencies:
-      '@vitest/expect': 4.1.12
-      '@vitest/mocker': 4.1.12(vite@7.0.0(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
-      '@vitest/pretty-format': 4.1.12
-      '@vitest/runner': 4.1.12
-      '@vitest/snapshot': 4.1.12
-      '@vitest/spy': 4.1.12
-      '@vitest/utils': 4.1.12
+      '@types/chai': 5.2.2
+      '@vitest/mocker': 5.1.2(vite@7.0.0(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2))
+      chai: 6.3.0
       es-module-lexer: 2.3.2
       expect-type: 1.4.0
-      magic-string: 0.30.21
-      obug: 2.2.1
-      pathe: 2.0.3
-      picomatch: 4.0.5
+      magic-string: 1.4.5
+      obug: 3.0.0
+      picomatch: 4.0.7
       std-env: 4.3.0
-      tinybench: 2.9.0
+      tinybench: 6.2.5
       tinyexec: 1.4.0
       tinyglobby: 0.2.17
-      tinyrainbow: 3.2.0
       vite: 7.0.0(@types/node@20.19.9)(jiti@2.4.2)(lightningcss@1.29.2)
-      why-is-node-running: 2.3.0
+      why-is-node-running: 3.2.1
     optionalDependencies:
       '@types/node': 20.19.9
     transitivePeerDependencies:
@@ -23589,10 +23568,7 @@ snapshots:
     dependencies:
       isexe: 2.0.0
 
-  why-is-node-running@2.3.0:
-    dependencies:
-      siginfo: 2.0.0
-      stackback: 0.0.2
+  why-is-node-running@3.2.1: {}
 
   wide-align@1.1.5:
     dependencies:
@@ -23707,7 +23683,7 @@ snapshots:
 
   ws@8.18.0: {}
 
-  ws@8.21.0: {}
+  ws@8.21.1: {}
 
   ws@8.23.1: {}
 
