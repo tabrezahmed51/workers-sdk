@@ -19,7 +19,7 @@
 	},
 	"dependencies": {
 		"@hono/zod-validator": "^0.4.2",
-		"hono": "^4.13.16",
+		"hono": "^4.13.23",
 		"zod": "^3.22.3"
 	},
 	"devDependencies": {
